@@ -20,6 +20,7 @@ a:visited {
   color: inherit; }
 
 #navbarCont {
+  will-change: transform;
   -ms-user-select: none;
   user-select: none;
   -moz-user-select: none;
