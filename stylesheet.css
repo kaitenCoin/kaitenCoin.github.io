@@ -472,7 +472,7 @@ a:visited {
 @media only screen and (max-height: 800px) {
   #revCont #chevCont {
     bottom: 50px; } }
-@media only screen and (max-height: 730px) {
+@media only screen and (max-height: 768px) {
   #revCont #mainBodyCont p {
     font-size: 35px; } }
 @media only screen and (max-height: 700px) {
@@ -506,7 +506,7 @@ a:visited {
         width: 710px; }
         #navbarCont #navACont li a .hoverMore .sideByFirst {
           right: 230px; } }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1366px) {
   #navbarCont {
     height: 75px; }
     #navbarCont #navACont span {
