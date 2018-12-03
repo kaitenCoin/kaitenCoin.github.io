@@ -132,7 +132,7 @@ nav {
       position: absolute;
       font-size: 30px;
       top: 15px;
-      right: 45px; }
+      right: 20px; }
       .overlay .banner span:hover {
         cursor: pointer; }
   .overlay .overlay-items {
@@ -149,7 +149,7 @@ nav {
       z-index: 101;
       width: 100%;
       text-align: Center;
-      padding: 7vh 0;
+      padding: 5.5vh 0;
       transition: 0.2s;
       margin: 0; }
       .overlay .overlay-items h2:hover {
