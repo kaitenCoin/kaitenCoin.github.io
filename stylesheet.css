@@ -640,7 +640,9 @@ nav {
     margin-top: 0; }
 
   .app-container .showcase-container .phone-desc-container button {
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .app-container .showcase-container .phone-desc-container p {
+    display: none; } }
 @media only screen and (max-width: 330px) {
   .roadmap-container .timeline-container .timeline-left {
     width: 0;
