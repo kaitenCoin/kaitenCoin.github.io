@@ -185,7 +185,7 @@
     </div>
     <div id="dl-scroll"></div>
     <div class="app-container">
-      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" style="enable-background:new 0 0 1440 126;" xml:space="preserve">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 126" >
        <defs>
          <linearGradient id="light4" x1="0%" y1="0%" x2="100%" y2="0%">
            <stop offset="0%" style="stop-color:rgba(161,140,209,1);stop-opacity:1" />
@@ -276,12 +276,12 @@
     }
 
     burger.onclick = function (){
-      body.style.overflow = 'hidden';
+      body.style.overflowY = 'hidden';
       overlay.style.display = 'block';
     }
 
     close.onclick = function (){
-      body.style.overflow = 'auto';
+      body.style.overflowY = 'auto';
       overlay.style.display = 'none';
     }
 

@@ -273,7 +273,7 @@ nav{
   }
 }
 .roadmap-container{
-  min-height: 1300px;
+  padding-bottom: 260px;
   width: 100%;
   background: #bea2e7;
   background: -moz-linear-gradient(top, #bea2e7 0%, #86b7e7 100%);
@@ -358,9 +358,7 @@ nav{
 }
 .team-container{
   max-width: 1000px;
-  height: 100vh;
-  max-height: 900px;
-  min-height: 800px;
+  padding-bottom: 150px;
   text-align: center;
   margin: auto;
   h1{
@@ -371,7 +369,6 @@ nav{
   }
   .profile-flex{
     width: 100%;
-    height: 400px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -442,7 +439,7 @@ nav{
 }
 .app-container{
   width: 100%;
-  height: 1000px;
+  padding-bottom: 200px;
   background: #bea2e7;
   background: -moz-linear-gradient(top, #bea2e7 0%, #86b7e7 100%);
   background: -webkit-linear-gradient(top, #bea2e7 0%, #86b7e7 100%);
@@ -605,9 +602,86 @@ nav{
     }
   }
 }
+@media only screen and (max-height: 700px) {
+  .main-container{
+    min-height:  750px;
+  }
+  .network-container{
+    padding-top: 120px;
+  }
+  nav{
+    height: 67px;
+    .semi-circle{
+      width: 130px;
+      height: 65px;
+      margin-top: -30px;
+      img{
+        width: 60px;
+        margin-top: -20px;
+        margin-left: -30px;
+      }
+    }
+    .nav-container{
+      .nav-left,.nav-right{
+        h3{
+          padding-top: 10px;
+        }
+      }
+    }
+  }
+  .network-container{
+    h1{
+      font-size: 30px;
+    }
+    h2{
+      font-size: 15px;
+    }
+    .hex-flex{
+      margin: 0;
+    }
+  }
+  .roadmap-container{
+    h1{
+      font-size: 30px;
+    }
+  }
+  .team-container{
+    h1{
+      font-size: 30px;
+    }
+    .profile-flex{
+      .profile-cont{
+        .profile-img{
+          width: 160px;
+          height: 160px;
+        }
+      }
+    }
+  }
+  .app-container{
+    .showcase-container{
+      img{
+        width: 270px;
+      }
+      .phone-desc-container{
+        padding-top: 80px;
+        h1{
+          font-size: 30px
+
+        }
+        p{
+          font-size: 15px;
+          margin-bottom: 20px;
+        }
+        .dl{
+          display: none;
+        }
+      }
+    }
+  }
+}
 @media only screen and (max-width: 1100px) {
   .app-container{
-    height: 1300px;
     .showcase-container{
       img{
         width: 230px;
@@ -682,7 +756,6 @@ nav{
 }
 @media only screen and (max-width: 677px) {
   .team-container{
-    min-height: 1200px;
     h1{
       font-size: 30px;
     }
@@ -726,7 +799,6 @@ nav{
 }
 @media only screen and (max-width: 577px) {
   .team-container{
-    min-height: 1600px;
     .profile-flex{
       .profile-cont{
         margin: 20px 40px;
